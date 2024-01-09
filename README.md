@@ -4,8 +4,7 @@ interactive linocut layering planner
 hi there! thanks for reading this.
 
 2024.01.08
-I've updated the code so it runs with OpenFrameworks 11, and moved it into the mims repo.
-I'll leave this here because why not?
+I've updated the code so it runs with OpenFrameworks of_v0.11.2_osx_release.
 
 2011.03.09.01.16
 the project currently has 3 files, and depends on OpenFrameworks for most of its functionality.
