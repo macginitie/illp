@@ -4,7 +4,13 @@ interactive linocut layering planner
 hi there! thanks for reading this.
 
 2024.01.08
-I've updated the code so it runs with OpenFrameworks of_v0.11.2_osx_release.
+I've updated the code so it runs with OpenFrameworks of_v0.11.2_osx_release. As a result, 
+step 1 below is out of date; instead, you can use the project generator that OpenFrameworks provides,
+and replace the generated ofApp.h/cpp files with the corresponding files here. Also, since
+OpenFrameworks is "multiplatform" the reference to ".exe" may be ".app" on a Mac platform.
+Also, note that the output files created (see step 9 below) might be overwritten on saves 2 through N
+so you will need to move them after they're created, before saving again, if you want to keep them... 
+to be fixed in a future enhancement, perhaps?
 
 2011.03.09.01.16
 the project currently has 3 files, and depends on OpenFrameworks for most of its functionality.
